@@ -4,7 +4,7 @@
 
 
 
-int sharedvar = 4;
+int sharedvar = 10;
 sem_t my_sem;
 void *thread_inc(void *arg)
 {
